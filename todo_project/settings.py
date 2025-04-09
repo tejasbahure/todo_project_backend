@@ -55,6 +55,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'todo_project.urls'
 CORS_ALLOWED_ORIGINS = config("ALLOWED_ORIGINS").split(',')
+CORS_ALLOW_ALL_ORIGINS="True"
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
