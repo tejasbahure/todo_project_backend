@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.p~  
+*.swp
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media
+staticfiles
+local_settings.py
+.env
+
+# PostgreSQL
+*.psql
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Pipenv
+Pipfile.lock
+
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Gunicorn
+gunicorn.pid
+
+# Docker
+*.pid
+*.db
+*.bak
+*.tar
+*.tar.gz
+
+# System
+Thumbs.db
+ehthumbs.db
